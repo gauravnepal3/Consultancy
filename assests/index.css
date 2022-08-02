@@ -5,8 +5,14 @@
 
 body {
     background-color: #f2f3f7;
+    position: relative;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 .navbar-nav li {
     padding: 10px 30px;
 }
@@ -21,11 +27,6 @@ body {
 }
 
 .navbar-nav li:hover a {
-    border-bottom: 3px solid black;
-}
-
-.active {
-    font-weight: bold;
     border-bottom: 3px solid black;
 }
 
@@ -74,7 +75,7 @@ footer {
 .star-container {
     position: absolute;
     right: 80px;
-    top: 30px;
+    top: 50px;
 }
 
 .landing-image {
@@ -110,9 +111,14 @@ footer {
     background-color: #fe3b32;
     color: white;
 }
-
-.btn-type-1:hover {
-    background-color: #a9261f;
+.btn-type-2 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #1D2539;
+    color: white;
+}
+.btn-type-2:hover {
+    background-color:#45598d;
     color: white;
 }
 
@@ -130,7 +136,7 @@ footer {
 }
 
 .country-card {
-    width: 350px;
+
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -142,10 +148,11 @@ footer {
 }
 
 .testimonial-card {
-    width: 300px;
+    width: 350px;
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10px auto ;
 }
 
 .quote-container .material-symbols-outlined {
@@ -156,8 +163,62 @@ footer {
     font-size: 44px;
     transform: rotateY(180deg);
     color: #fe3b32;
+}.student-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.support-container{
+    background-color: #fff;
 }
 
+.guidance-container img{
+border-radius: 47% 53% 100% 0% / 0% 100% 0% 100% ;
+}
+
+.nav-pills .nav-link.active{
+background-color: #1D2539;
+}
+
+.scrollspy-example{
+    top: 10vh;
+    position: relative;
+    margin-bottom: 10vh;
+}
+
+.info-container{
+    background-color: #1D2539;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    width: 300px;
+}
+.info-container p{
+    padding: 0;
+}
+.service-container{
+    background-color: white;
+padding: 0px 30px;
+}
+.color-icon{
+    background-color: #ffa8a3;
+    color: #fe3b32;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.nav-pills .nav-link.active {
+
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+    font-weight: bold;
+}
+.service-img-container{
+    width: 350px;
+    height: auto;
+}
 
 /* Responsive design */
 
@@ -189,4 +250,8 @@ footer {
     .color-container h6 {
         color: black;
     }
+    .service-img-container{
+    width: 260px;
+    height: auto;
+}
 }
