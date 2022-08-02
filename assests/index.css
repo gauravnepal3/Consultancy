@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f3f7;
+}
+
+.navbar-nav li {
+    padding: 10px 30px;
+}
+
+.navbar-nav li a {
+    color: black;
+}
+
+.navbar-nav li:hover a {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-nav li:hover a {
+    border-bottom: 3px solid black;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+nav {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar-toggler {
+    border: 2px solid black;
+}
+
+.layout-padding {
+    padding: 0px 100px;
+}
+
+footer {
+    background-color: #1D2539;
+}
+
+.social-links i {
+    font-size: 20px;
+}
+
+.copyright-container {
+    border-top: 3px solid white;
+}
+
+.color-container {
+    background-color: #1D2539;
+    width: 70vw;
+    height: 60vh;
+    border-bottom-right-radius: 50px;
+}
+
+.star-container span {
+    font-size: 45px;
+    color: #fe3b32;
+}
+
+.left-container {
+    position: relative;
+    width: 30vw;
+}
+
+.star-container {
+    position: absolute;
+    right: 80px;
+    top: 30px;
+}
+
+.landing-image {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    right: 100px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.color-container h1 {
+    font-size: 60px;
+    margin-top: 150px;
+    color: white;
+}
+
+.color-container h6 {
+    color: white;
+}
+
+#navbarButton[aria-expanded="true"] {
+    background-color: #fe3b32;
+    color: white;
+}
+
+.btn-type-1 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fe3b32;
+    color: white;
+}
+
+.btn-type-1:hover {
+    background-color: #a9261f;
+    color: white;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.highlight-container {
+    background-color: #fe3b32;
+}
+
+.sub-color-heading {
+    color: #fe3b32;
+    font-weight: bold;
+}
+
+.country-card {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.country-card img {
+    width: 100%;
+    height: 300px;
+}
+
+.testimonial-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.quote-container .material-symbols-outlined {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+.quote-container span {
+    font-size: 44px;
+    transform: rotateY(180deg);
+    color: #fe3b32;
+}
+
+
+/* Responsive design */
+
+@media only screen and (max-width: 768px) {
+    .layout-padding {
+        padding: 10px;
+    }
+    .color-container {
+        background-color: white;
+        padding: 10px;
+        height: auto;
+        width: 90vw;
+    }
+    .color-container h1 {
+        font-size: 25px;
+        margin-top: 30px;
+        color: black;
+    }
+    .landing-image {
+        width: 300px;
+        height: auto;
+        top: 0;
+        right: 0;
+        object-fit: cover;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .color-container h6 {
+        color: black;
+    }
+}
